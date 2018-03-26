@@ -7,6 +7,12 @@ jdk:
 branches:
   only:
     - master
+    - development
+    - Jeff
+    - Miguel
+    - James
+    - Taylor
+    - Mason
 
 after_success:
   - mvn clean test jacoco:report coveralls:report
