@@ -16,6 +16,8 @@ public class UnsharedConcreteFlyweight implements Flyweight {
 
   }
 
+  // this object returns the object state. This is Mason.
+  
   public Object getState() {
     return state;
   }
