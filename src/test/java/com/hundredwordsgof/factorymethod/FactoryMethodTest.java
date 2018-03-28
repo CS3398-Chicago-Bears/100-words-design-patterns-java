@@ -21,7 +21,9 @@ public class FactoryMethodTest {
     assertEquals("com.hundredwordsgof.factorymethod.ConcreteProductB",
         productB.getClass().getName());
     
-    assertEquals("com.hundredwordsgof.factorymethod.ConcreteProductA",
+    //assertEquals("com.hundredwordsgof.factorymethod.ConcreteProductA",
+    //    productB.getClass().getName());
+    assertNotEquals("com.hundredwordsgof.factorymethod.ConcreteProductA",
         productB.getClass().getName());
 
     assertEquals(null, factory.factoryMethod(""));
