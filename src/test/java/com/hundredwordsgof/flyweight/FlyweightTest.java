@@ -65,5 +65,7 @@ public class FlyweightTest {
           ((com.hundredwordsgof.flyweight.UnsharedConcreteFlyweight) unsharedFlyweight3)
               .getState());
     }
+    
+    assertEquals(flyweight1, flyweight2);//Chicago-Bears 3/28/18
   }
 }
